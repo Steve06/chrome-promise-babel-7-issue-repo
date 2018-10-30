@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "chrome-promise-babel-7-issue-repo",
+  "short_name": "babel-7-issue",
+  "description": "This is just for problem-solving purposes.",
+  "version": "1.0",
+  "minimum_chrome_version": "60",
+  "background":{
+    "scripts":["chrome-promise.js","bg.js"],
+    "persistent": false
+  },
+  "permissions": ["storage"]
+}
