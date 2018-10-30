@@ -1,7 +1,3 @@
-
-
-"# chrome-promise-babel-7-issue-repo"
-
 Repo created to illustrate issue opened at https://github.com/babel/babel/issues/8940 :
 
 Short description of the issue: chrome-promise.js is not transpiled correctly for me in Babel 7 and yields "Uncaught ReferenceError: ChromePromise is not defined"
