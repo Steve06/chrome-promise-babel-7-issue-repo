@@ -1,4 +1,5 @@
-"# chrome-promise-babel-7-issue-repo" 
+
+"# chrome-promise-babel-7-issue-repo"
 
 Repo created to illustrate issue opened at https://github.com/babel/babel/issues/8940 :
 
@@ -9,7 +10,6 @@ Background: My Chrome extension project uses the Chrome-Promise module from http
 Transpiling the project with Babel 6 has always worked fine. Recently I moved to Babel 7. Since then, when I allow the chrome-promise.js file to be transpiled by Babel, this results in a "Uncaught ReferenceError: ChromePromise is not defined" error when running the extension. The program works well when I leave chrome-promise.js as is, untranspiled.
 
 Steps to reproduce:
-
     - Once you have downloaded the repo, you can check that the untranspiled source code in 'source' directory works as follows:
         - Open the Chrome browser
         - Go to chrome://extensions/
@@ -23,3 +23,4 @@ Steps to reproduce:
             - the 'build' folder should contain the transpiled bg.js and chrome-promise.js files.
             - to check whether the transpiled files work, drag the 'build' folder into the chrome://extensions/ page.
             - the background page should produce an error: "Uncaught ReferenceError: ChromePromise is not defined"
+
