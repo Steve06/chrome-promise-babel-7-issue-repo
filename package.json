@@ -30,7 +30,8 @@
         {
           "targets": {
             "chrome": 60
-          }
+          },
+          "modules": "umd"
         }
       ]
     ],
